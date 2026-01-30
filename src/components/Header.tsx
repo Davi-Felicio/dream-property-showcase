@@ -1,17 +1,15 @@
-import { Phone, Mail } from "lucide-react";
+import { Phone } from "lucide-react";
 import { Button } from "./ui/button";
+import logo from "@/assets/schneider-logo.png";
 
 const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/50">
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <span className="font-display text-2xl font-semibold text-foreground">
-              Schneider
-            </span>
-            <span className="text-muted-foreground text-sm font-body">Imóveis</span>
-          </div>
+          <a href="/" className="flex items-center">
+            <img src={logo} alt="Schneider Imóveis" className="h-12 w-auto" />
+          </a>
           
           <nav className="hidden md:flex items-center gap-8">
             <a href="#imoveis" className="text-muted-foreground hover:text-foreground transition-colors font-body text-sm">
