@@ -1,5 +1,4 @@
 import { Button } from "./ui/button";
-import { ArrowDown } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -10,9 +9,11 @@ const Hero = () => {
       
       <div className="container mx-auto px-6 pt-20 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
+          {/*
           <p className="text-primary font-body text-sm tracking-[0.3em] uppercase mb-6 animate-fade-in">
             Corretora de Imóveis • CRECI 123456
           </p>
+          */}
           
           <h1 className="font-display text-5xl md:text-7xl font-semibold text-foreground mb-6 leading-tight">
             Encontre o imóvel dos seus{" "}
@@ -25,20 +26,15 @@ const Hero = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button variant="hero" size="xl">
-              Ver Imóveis
+            <Button variant="hero" size="xl" asChild>
+              <a href="#imoveis">Ver Imóveis</a>
             </Button>
-            <Button variant="heroOutline" size="xl">
-              Agendar Visita
+            <Button variant="heroOutline" size="xl" asChild>
+              <a href="https://wa.me/5543998737544">Agendar Visita</a>
             </Button>
           </div>
         </div>
         
-        <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
-          <a href="#imoveis" className="text-muted-foreground hover:text-foreground transition-colors">
-            <ArrowDown className="w-6 h-6" />
-          </a>
-        </div>
       </div>
     </section>
   );

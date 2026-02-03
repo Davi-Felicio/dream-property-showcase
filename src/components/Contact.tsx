@@ -56,20 +56,22 @@ const Contact = () => {
               </div>
             </div>
             
+            {/*
             <div className="flex gap-4 mt-10">
-              <a 
-                href="#" 
+              <a
+                href="#"
                 className="w-12 h-12 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-primary-foreground/20 transition-colors"
               >
                 <Instagram className="w-5 h-5" />
               </a>
-              <a 
-                href="#" 
+              <a
+                href="#"
                 className="w-12 h-12 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-primary-foreground/20 transition-colors"
               >
                 <Linkedin className="w-5 h-5" />
               </a>
             </div>
+            */}
           </div>
           
           <div className="bg-primary-foreground/5 rounded-lg p-8">

@@ -31,6 +31,7 @@ const About = () => {
               cliente, seja para moradia ou investimento.
             </p>
             
+            {/*
             <div className="flex items-center gap-4">
               <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center">
                 <Award className="w-8 h-8 text-primary" />
@@ -44,6 +45,7 @@ const About = () => {
                 </p>
               </div>
             </div>
+            */}
           </div>
           
           <div className="grid grid-cols-2 gap-6">

@@ -17,9 +17,11 @@ const Footer = () => {
             © {new Date().getFullYear()} Schneider Imóveis. Todos os direitos reservados.
           </p>
           
+          {/*
           <p className="text-primary-foreground/60 font-body text-sm">
             CRECI 123456-F
           </p>
+          */}
         </div>
       </div>
     </footer>
