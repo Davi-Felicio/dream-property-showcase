@@ -4,9 +4,11 @@ const properties = [
   {
     id: 1,
     images: [
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&auto=format&fit=crop",
+      "/src/assets/barracoes/barracoes1.jpeg",
+      "/src/assets/barracoes/barracoes2.jpeg",
+      "/src/assets/barracoes/barracoes3.jpeg",
+      "/src/assets/barracoes/barracoes4.jpeg",
+      "/src/assets/barracoes/barracoes5.jpeg",
     ],
     title: "Casa em Condomínio Fechado",
     location: "Alphaville, Barueri - SP",
@@ -20,9 +22,11 @@ const properties = [
   {
     id: 2,
     images: [
-      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&auto=format&fit=crop",
+      "/src/assets/beirario/Beirario1.jpeg",
+      "/src/assets/beirario/Beirario2.jpeg",
+      "/src/assets/beirario/Beirario3.jpeg",
+      "/src/assets/beirario/Beirario4.jpeg",
+      "/src/assets/beirario/Beirario5.jpeg",
     ],
     title: "Apartamento Alto Padrão",
     location: "Jardins, São Paulo - SP",
@@ -36,9 +40,11 @@ const properties = [
   {
     id: 3,
     images: [
-      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1600573472591-ee6c8e695f07?w=800&auto=format&fit=crop",
+      "/src/assets/beirario2/beirario22.jpeg",
+      "/src/assets/beirario2/beirario21.jpeg",
+      "/src/assets/beirario2/beirario23.jpeg",
+      "/src/assets/beirario2/beirario24.jpeg",
+      "/src/assets/beirario2/beirario25.jpeg",
     ],
     title: "Cobertura Duplex",
     location: "Moema, São Paulo - SP",
@@ -52,9 +58,11 @@ const properties = [
   {
     id: 4,
     images: [
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1600566752734-2a0cd04b4aa4?w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?w=800&auto=format&fit=crop",
+      "/src/assets/beirario3/beirario31.jpeg",
+      "/src/assets/beirario3/beirario32.jpeg",
+      "/src/assets/beirario3/beirario33.jpeg",
+      "/src/assets/beirario3/beirario34.jpeg",
+      "/src/assets/beirario3/beirario35.jpeg",
     ],
     title: "Casa Térrea Moderna",
     location: "Granja Viana, Cotia - SP",
@@ -68,9 +76,11 @@ const properties = [
   {
     id: 5,
     images: [
-      "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1600607687644-c7171b42498f?w=800&auto=format&fit=crop",
+      "/src/assets/colegiointegral/colegiointegral4.jpeg",
+      "/src/assets/colegiointegral/colegiointegral2.png",
+      "/src/assets/colegiointegral/colegiointegral3.png",
+      "/src/assets/colegiointegral/colegiointegral1.png",
+      "/src/assets/colegiointegral/colegiointegral5.jpeg",
     ],
     title: "Apartamento Garden",
     location: "Vila Mariana, São Paulo - SP",
@@ -81,22 +91,7 @@ const properties = [
     area: 95,
     type: "Venda",
   },
-  {
-    id: 6,
-    images: [
-      "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1600566753104-685f4f24cb4d?w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1600585154363-67eb9e2e2099?w=800&auto=format&fit=crop",
-    ],
-    title: "Studio Mobiliado",
-    location: "Pinheiros, São Paulo - SP",
-    price: "R$ 4.500/mês",
-    bedrooms: 1,
-    bathrooms: 1,
-    parking: 1,
-    area: 45,
-    type: "Aluguel",
-  },
+  
 ];
 
 const PropertyGrid = () => {
