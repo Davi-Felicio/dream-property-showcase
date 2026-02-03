@@ -14,7 +14,7 @@ const Contact = () => {
               Vamos Conversar?
             </h2>
             <p className="text-primary-foreground/70 font-body text-lg leading-relaxed mb-10">
-              Estou à disposição para ajudá-lo a encontrar o imóvel ideal. 
+              Estamos à disposição para ajudá-lo a encontrar o imóvel ideal. 
               Entre em contato e agende uma conversa sem compromisso.
             </p>
             

@@ -20,9 +20,8 @@ const About = () => {
               Schneider Imóveis
             </h2>
             <p className="text-muted-foreground font-body text-lg leading-relaxed mb-6">
-              Sou corretora de imóveis há mais de 10 anos, especializada em imóveis de 
-              alto padrão na região de São Paulo. Minha missão é transformar o sonho 
-              da casa própria em realidade, oferecendo um atendimento personalizado 
+              Sou corretora de imóveis há mais de 10 anos, especializada em imóveis de na região ao redor de Toledo-PR. 
+              Minha missão é oferecer um atendimento personalizado 
               e transparente.
             </p>
             <p className="text-muted-foreground font-body text-lg leading-relaxed mb-8">

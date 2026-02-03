@@ -1,0 +1,25 @@
+Descrição:
+
+LOCAÇÃO: 
+
+Dados dos imóveis: 
+Rua Protásio Alves, 2117, Vila Industrial. Toledo-PR
+
+Sala 02:
+400 m2;
+Pé direito 5,5 altura;
+Com forro;
+2 banheiros;
+Cozinha;
+Imóvel novo;
+Estacionamento fechado;
+Duas quadras do Lago municipal.
+
+Sala 03:
+400 m2;
+Pé direito 7,5 altura;
+2 banheiros;
+Cozinha;
+Imóvel novo;
+Estacionamento fechado;
+Duas quadras do Lago municipal.
